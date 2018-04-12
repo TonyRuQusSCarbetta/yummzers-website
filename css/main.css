@@ -1,0 +1,114 @@
+/* AUTOPREFIXER */
+/* https://autoprefixer.github.io/ */
+
+* {
+  color: purple;
+  font-family: 'Lobster';
+}
+
+html, body {
+  height: 100%;
+}
+
+.text-align {
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+
+/* FONT CLASSES */
+.IndieFlower {
+  font-family: 'Indie Flower', cursive;
+}
+
+.Lobster {
+  font-family: 'Lobster', cursive;
+}
+
+.Pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+.CoveredGrace {
+  font-family: 'Covered By Your Grace', cursive;
+}
+
+.RockSalt {
+  font-family: 'Rock Salt', cursive;
+}
+
+.CaveatBrush {
+  font-family: 'Caveat Brush', cursive;
+}
+
+.Roboto {
+  font-family: 'Roboto', cursive;
+}
+/* FONT CLASSES */
+
+
+
+/* NAVBAR CLASSES */
+.larger-font {
+  font-size: 3rem;
+}
+
+div#navbarResponsive {
+    font-size: 19px;
+}
+
+a.navbar-brand.Lobster.larger-font {
+    color: #7b1fa2;
+}
+/* NAVBAR CLASSES */
+
+
+.tagline {
+  margin-top: 134px;
+}
+
+
+
+/* COLOR CLASSES */
+.bg-purple {
+  background-color: #7b1fa2;
+}
+
+.bg-purple-lighten-4 {
+  background-color: #e1bee7;
+}
+
+.purple {
+  color: #7b1fa2;
+}
+
+.purple-lighten-4 {
+  color: #e1bee7;
+}
+/* COLOR CLASSES */
+
+
+.business-header {
+  height: 50vh;
+  min-height: 300px;
+  background: url('../img/img9.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+  /* FOOTER CLASSES */
+  p.m-0.text-center.text-white {
+    font-family: 'Caveat Brush';
+}
+
+.CarbettaCoding {
+  color: #e1bee7;
+}
+
+.CarbettaCoding:hover {
+  text-decoration: none;
+  color: white;
+}
