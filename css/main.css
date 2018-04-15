@@ -10,11 +10,35 @@ html, body {
   height: 100%;
 }
 
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
 .text-align {
   text-align: center;
   margin: 0 auto;
   display: inline-block;
 }
+
+/* NAVBAR */
+/* .navbar-light .navbar-nav .nav-link {
+    color: #7b1fa2;
+} */
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+/* .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #7b1fa2;
+} */
+
 
 
 /* FONT CLASSES */
@@ -86,6 +110,10 @@ a.navbar-brand.Lobster.larger-font {
 .purple-lighten-4 {
   color: #e1bee7;
 }
+
+.grey {
+      color: rgba(0,0,0,.5);
+}
 /* COLOR CLASSES */
 
 
@@ -97,6 +125,37 @@ a.navbar-brand.Lobster.larger-font {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+
+/* CARDS */
+.card {
+  height: 100%;
+}
+
+.card-img-height {
+  height: 400px;
+}
+
+.a-hover {
+  color: black;
+}
+
+.a-hover:hover {
+  color: #e1bee7;
+}
+
+.build-order:hover {
+  color: #7b1fa2;
+}
+
+/* CONTACT */
+.contact-hover:hover {
+  color: #e1bee7;
+}
+
+.contact-hover {
+  font-size: 2rem;
 }
 
   /* FOOTER CLASSES */
